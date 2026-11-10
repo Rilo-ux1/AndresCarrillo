@@ -1,0 +1,28 @@
+# Entorno de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Configuración local y secretos
+.env
+config.local.json
+
+# Base de datos y respaldos
+accesos.db
+accesos.backup-*.db
+.backups/
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Caché y logs
+.cache/
+app.log
+*.log
+
+# Datos biométricos: no subir rostros reales a repositorios públicos.
+# Si el dataset es solo de demostración, puede quitar esta línea.
+dataset/
